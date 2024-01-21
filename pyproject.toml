@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyprod"
+version = "0.1.0"
+description = ""
+authors = ["maksimnickalayevich <maksim.nickalayevich@deliverect.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2 = "^2.9.9"
+fastapi = "^0.109.0"
+uvicorn = "^0.26.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
